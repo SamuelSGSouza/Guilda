@@ -1,0 +1,51 @@
+{% load static %}
+<div style="position:relative">
+    <div class="container-fluid p-5 rounded-sm" >
+        <div class="container-water pb-5">
+            <h1 class="pt-4 text-center">O que você gostaria de Conhecer?</h1>
+            <h1 class="pt-4 text-center">O que você gostaria de Conhecer?</h1>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4 my-4">
+                <div class="card-sites"data-url="{% url 'landing_page' %}" onclick="exibe_tela_detalhes_sites(this.dataset.url)">
+                    <p class="">Landing Pages</p>
+                </div>
+            </div>
+            <div class="col-md-4 my-4" data-url="{% url 'site_comercial_index' %}" onclick="exibe_tela_detalhes_sites(this.dataset.url)">
+                <div class="card-sites">
+                    <p class="">Sites Corporativos</p>
+                </div>
+            </div>
+            <div class="col-md-4 my-4">
+                <div class="card-sites">
+                    <p class="">CRM's</p>
+                </div>
+            </div>
+            <div class="col-md-4 my-4">
+                <div class="card-sites">
+                    <p class="">ERP's</p>
+                </div>
+            </div>
+            <div class="col-md-4 my-4">
+                <div class="card-sites">
+                    <p class="">E-commerce</p>
+                </div>
+            </div>
+            <div class="col-md-4 my-4">
+                <div class="card-sites">
+                    <p class="">Landing Pages</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="area-detalhes">
+        <button id="fechar-tela-sites" onclick="esconde_tela_detalhes_sites()">X</button>
+        <div id="area-detalhes-wrap" class="area-detalhes-wrap">
+            
+            olá
+        </div>
+        
+    </div>
+    <script src="{% static 'sites/js/sites.js' %}"></script>
+</div>

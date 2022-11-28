@@ -1,0 +1,165 @@
+{% load static %}
+<div class="bg-white">
+    <div class="session-1 text-center" style="background-image: url({% static 'sites/img/slider-bg-1.jpg' %}); height:80vh;background-size:cover ">
+        <div class="container" style="height: 26vh"></div>
+        <div class="container">
+            <h1 class="text-white ">Tudo o que você precisa saber sobre Landing Pages</h1>
+            <form action="" method="get" style="margin-top:4vh">
+                <div class="">
+                    <input type="email"value="INSIRA SEU EMAIL E GARANTA AUMENTO NA SUA CONVERSÃO" placeholder="" class="form-control" style="border-radius: 0px; height: 50px; border: 1px solid #fff; background-color: rgba(0, 0, 0, 0.4); color: #fff">
+                </div>
+            </form>
+            <h1 class="text-white pt-2">OU</h1>
+            <a href="{% url 'landing_page' %}" class="btn btn-primary" style="border-radius: 10px; height: 50px; border: 1px solid #fff;padding-top:10px; background-color: rgba(0, 0, 0, 1); color: #fff">FALE COMIGO</a>
+        </div>
+        
+    </div>
+    <!-- Fim da sessão 1-->
+
+    <!-- Sessão 2-->
+    <div class="sessao-2">
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8">
+                        <!-- section title -->
+                        <div class="title text-center">
+                            <h2>O que é uma Landing Page?</h2>
+                            <p>Uma Landing Page pode te oferecer taxas de até 50% de conversão, aumentando as vendas e visibilidade do seu negócio.</p>
+                            <div class="border"></div>
+                        </div>
+                        <!-- /section title -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Uma Landing Page é uma página que tem como objetivo converter visitantes
+                            em clientes. Ela é uma página de destino, ou seja, uma página que o
+                             usuário é direcionado após clicar em um link ou anúncio.</p>
+                        
+                        <h4>De forma geral,
+                            podemos dizer que os pontos principais de uma Landing Page são:</h4>
+                        <ul class="feature-list">
+                            <li> <i class="tf-ion-android-checkmark-circle"></i> Apresentação <strong>clara da oferta</strong>, seja de produto, serviço ou conteúdo</li>
+                            <li> <i class="tf-ion-android-checkmark-circle"></i> Não apresentam links, menus ou qualquer conteúdo que possa distrair o usuário do foco principal.</li>
+                            <li> <i class="tf-ion-android-checkmark-circle"></i> Apresenta uma Chamada Para Ação clara, com a ação que deve ser executada e a vantagem de fazer isso.</li>
+                        </ul>
+                        <a href="https://api.whatsapp.com/send?phone=5547991482727&text=Oi, Quero minha landing page!" class="btn btn-main mt-20" style="background-color:black!important;border:none">Fale Comigo</a>
+                    </div>
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <img loading="lazy" src="{% static 'sites/img/about-us.jpg' %}" class="img-fluid" alt="imagem-genérica">
+                    </div>
+                    
+                </div> <!-- End row -->
+            </div> <!-- End container -->
+        </section> <!-- End section -->
+    </div>
+    <!-- Fim da sessão 2 -->
+
+    <!-- Sessão 3 -->
+    <div>
+        <!--
+        Start Call To Action
+        ==================================== -->
+        <section class="call-to-action section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8 text-center">
+                        <h2>Uma Landing Page Deve Conter Uma Chamada Para Ação Clara e Objetiva</h2>
+                        <p>O cliente deve ser direcionado para o foco da Landing
+                            Page. O produto ou serviço deve ser exposto de forma clara
+                            e o visitante precisa entender o que precisa fazer
+                            para obter o benefício.</p>
+                        <a href="https://api.whatsapp.com/send?phone=5547991482727&text=Oi, Quero minha landing page!" class="btn btn-main mt-20" style="background-color:black!important;border:none">Garanta Sua LP</a>
+                    </div>
+                </div> <!-- End row -->
+            </div> <!-- End container -->
+        </section> <!-- End section -->
+        <!-- Start Team Skills
+        =========================================== -->
+    </div>
+    <!-- Fim da sessão 3 -->
+    
+    <!-- Sessão 4 -->
+    <div>
+        <!--Start Contact Us
+            =========================================== -->
+        <section class="contact-us" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- section title -->
+                    <div class="col-xl-6 col-lg-8">
+                    <div class="title text-center">
+                        <h2>Entre em Contato</h2>
+                        <p>Deseja fazer seu pedido de Landing Page ou se tiver
+                            qualquer dúvida pode entrar em contato que faremos nosso
+                            melhor para te ajudar!
+                        </p>
+                        <div class="border"></div>
+                    </div>
+                </div>
+                <!-- /section title -->
+            </div>
+                <div class="row">
+                    <!-- Contact Details -->
+                    <div class="contact-details col-md-6 ">
+                        <h3 class="mb-3">Outras Formas de Contato</h3>
+                        <ul class="contact-short-info mt-4">
+                            <li class="mb-3">
+                                <i class="tf-ion-ios-home"></i>
+                                <span>Jaraguá do Sul, Santa Catarina - Brasil</span>
+                            </li>
+                            <li class="mb-3">
+                                <i class="tf-ion-android-phone-portrait"></i>
+                                <span>Telefone: 55 47 991-482-727</span>
+                            <li>
+                                <i class="tf-ion-android-mail"></i>
+                                <span>Email: samuels.g.desouza@gmail.com</span>
+                            </li>
+                        </ul>
+                        <!-- Footer Social Links -->
+                        <!-- <div class="social-icon">
+                            <ul>
+                                <li><a href="https://themefisher.com/"><i class="tf-ion-social-facebook"></i></a></li>
+                                <li><a href="https://themefisher.com/"><i class="tf-ion-social-twitter"></i></a></li>
+                                <li><a href="https://themefisher.com/"><i class="tf-ion-social-dribbble-outline"></i></a></li>
+                                <li><a href="https://themefisher.com/"><i class="tf-ion-social-linkedin-outline"></i></a></li>
+                            </ul>
+                        </div> -->
+                        <!--/. End Footer Social Links -->
+                    </div>
+                    <!-- / End Contact Details -->
+
+                    <!-- Contact Form -->
+                    <div class="contact-form col-md-6 ">
+                        <form id="contact-form">
+                            {% csrf_token %}
+                            <div class="form-group mb-4">
+                                <input type="text" placeholder="Seu Nome" class="form-control" name="nome" id="contato_nome" required>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <input type="email" placeholder="Email" class="form-control" name="email" id="contato_email" required>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <input type="text" placeholder="Assunto" class="form-control" name="subject" id="contato_assunto" required>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <textarea rows="6" placeholder="Mensagem" class="form-control" name="message" id="contato_mensagem" required></textarea>
+                            </div>
+                            <div id="cf-submit">
+                                <input type="button" data-url="{% url 'envia_email' %}" onclick="envia_dados_ajax(this.dataset.url)" id="contact-submit" class="btn btn-transparent" style="background-color: black!important;border:none!important" value="Enviar">
+                            </div>
+
+                        </form>
+                    </div>
+                    <!-- ./End Contact Form -->
+
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section> <!-- end section -->
+    </div>
+    
+</div>
